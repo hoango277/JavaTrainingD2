@@ -127,7 +127,7 @@ public class UserDAO {
             ResultSet rs = preparedStatement.executeQuery();
             if(rs.next())
             {
-                if(rs.getString("pro_skill") != null)
+                if(rs.getString("exp_in_years") != null)
                 {
                     System.out.println("Login admin successful!");
                     preparedStatement.close();

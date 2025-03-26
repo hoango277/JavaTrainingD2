@@ -27,7 +27,6 @@ public class Menu {
             System.out.println("3. Get user with id");
             System.out.println("4. Delete user with id");
             System.out.println("5. Login");
-            System.out.println("6. Create user for Admin");
             System.out.println("7. exit");
             System.out.print("Chọn chức năng: ");
             n = Integer.parseInt(sc.nextLine());
